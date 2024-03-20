@@ -1,0 +1,112 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: rgb(26, 90, 116, 0.5);
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: "Sniglet";
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 50px;
+}
+
+.nav-bar {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-bar a:hover {
+  color: #f0e4a0;
+}
+
+/* Body */
+p {
+  color: black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: url(../media/background.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.info-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 7px #5f533d;
+  margin-top: 125px;
+}
+
+.info-personal {
+  text-align: center;
+  background: wheat;
+  border-radius: 20px;
+  padding: 50px;
+  border: dashed 7px #816847;
+  font-family: "Sniglet";
+  margin-bottom: 50px;
+}
+
+.info-personal h2 {
+  color: #816847;
+}
+
+.name {
+  color: #2d406c;
+  margin-bottom: 50px;
+  font-family: "Sniglet";
+  font-size: 50px;
+  background: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  border: dashed 7px #2d406c;
+}
+
+.previous-studies {
+  background: #ffaeae;
+  border-radius: 20px;
+  border: dashed 7px #743f3f;
+  font-family: "Sniglet";
+  padding: 50px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.previous-studies h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  color: #743f3f;
+}
